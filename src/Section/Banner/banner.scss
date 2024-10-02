@@ -1,0 +1,18 @@
+.background-container {
+    background-image: url("../../../src//Media/Header_Desktop.webp"); /* Replace with your desktop image URL */
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    border-radius: 0px 0px 50px 50px;
+    
+    @media (max-width: 768px) {
+      background-image: url("../../../src//Media/Header_Mobile.webp");
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center; 
+    
+    }
+  }

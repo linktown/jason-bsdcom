@@ -1,0 +1,181 @@
+.cardrumahdetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cluster-card {
+      width: 350px;
+      margin-left: 15px;
+      margin-top: 10px;
+      background: transparent;
+      //border-radius: 15px;
+      //box-shadow: 0 0 10px 0;
+      padding-bottom: 10px;
+      
+      @media (max-width: 768px) {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+        width: 95%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+      }
+      .slick-dots {
+        bottom: 15px;
+        li {
+          width: 10px;
+        }
+      }
+      .slick-next {
+        right: 25px;
+      }
+      .slick-next::before,
+      .slick-prev::before {
+        font-family: "slick";
+        font-size: 30px;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 25px;
+      }
+      .cluster-image {
+        width: 100%;
+        //height: auto;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .container-rumah {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 10px;
+        .nama-rumah {
+          width: 100%;
+          font-family: "poppins" sans-serif;
+          font-size: 30px;
+          font-weight: 500;
+          color: #091c34;
+        }
+      }
+      .gridmap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .icon {
+          margin-top: 5px;
+          margin-right: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+        }
+        .namalokasi{
+        width: 100%;
+        font-size: 18px;
+        color: #4b4b4b;
+        }
+      }
+
+      .containercicilan {
+        width: 100%;
+        margin-top: -5px;
+        display: flex;
+        background-color: white;
+
+        .judulkartu {
+          width: 50%;
+          padding: 10px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .startfrom {
+            color: #091c34;
+            font-family: "Poppins" sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+          }
+        }
+        .cicilansumban {
+          width: 50%;
+          padding: 10px;
+          border-radius: 10px 0px 0 10px;
+          color: #091c34;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          background-color: white;
+          .angka {
+            font-family: "Poppins";
+            font-size: 25px;
+            font-weight: 500;
+          }
+          .ket {
+            font-family: "Poppins";
+            font-size: 10px;
+            padding-top: 10px;
+            font-weight: 500;
+          }
+        }
+      }
+      .gridspek {
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //background: rgb(90,131,103);
+        //padding-top: 15px;
+        //padding-bottom: 15px;
+        border: 1px #c6995e;
+        border-radius: 0px 0px 10px 10px;
+        gap: 10px;
+        span {
+          color: #091c34;
+            display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 5px;
+          padding-right: 10px;
+          @media (max-width: 768px) {
+            padding-right: 20px;
+            font-size: 12px;
+          }
+        }
+      }
+      .cluster-button {
+        display: flex;
+        justify-content: center;
+        //padding-top: 25px;
+        
+        .cluster-whatsapp {
+          display: inline-block;
+          padding: 10px 125px;
+          cursor: pointer;
+          border: solid 1px white;
+          border-radius: 20px;
+          background-color: #091c34; 
+          color: #ffffff;
+          font-size: 16px;
+          &:hover {
+            background-color: transparent;
+            color: #091c34;
+            border-color: #091c34;
+            
+        }
+        }
+      }
+    }
+  }
+  

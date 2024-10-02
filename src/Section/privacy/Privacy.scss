@@ -1,0 +1,23 @@
+.privcont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .privacy-title {
+    margin: 50px 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .priv {
+    width: 70%;
+    .priv-title {
+      font-family: "Roboto", sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 25px 0px;
+    }
+  }
+}

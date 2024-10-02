@@ -1,0 +1,40 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    .container-about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .container-desk {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        .desk {
+            width: 80%;
+            
+        }
+    }
+    .container-benefit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .benefit-list{
+            width: 80%;
+            
+        }
+    }
+}
+    .gambarabout {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items:center ;
+        img {
+            width: 75%;
+        }
+    }
+}
